@@ -1,3 +1,41 @@
-body {
+h4 {
+  color: #D63A2C; 
+  font size: 20px; 
+}
 
+body {
+  background-color:  #D6DFC5;
+}
+
+img {
+  border: dotted 6px #0094C6;
+}
+
+img:hover {
+  border: dashed 12px green;
+}
+
+h4:hover {
+  color: #283618;
+  font-size: 90px;
+}
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: Beige; 
+  top: 0;
+  width: 100;
+  left: 0; 
+}
+li {
+  display: inline; 
+  padding: 15px; 
+}
+li:hover {
+  background-color: yellow; 
+}
+
+a{
+  text-decoration: none;
+  color: green; 
 }
